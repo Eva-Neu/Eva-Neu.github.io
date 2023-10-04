@@ -25,8 +25,11 @@
 a {
   color: black;
 }
- p {
-  margin: 0px 60px;  
+p {
+  margin-top: 0px;
+  margin-bottom: 00px;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 html * {
@@ -45,16 +48,21 @@ html * {
   width: 30%;
 }
 
-@media screen and (max-width: 1400px) {
-  .wide-column, .side-column{
-    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (max-width: 1100px) {
+  .wide-column, .side-column, .menubar{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 00px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 
 /* Reset styles to ensure consistent styling across browsers */
 
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -65,6 +73,7 @@ body {
   background-color: White;
   font-size: 22px;
 }
+
 
 /* Menubar styles */
 
@@ -132,10 +141,13 @@ body {
 <span style="display:inline-block; width: 50px;"></span>
 
 <b>Eva Neu</b></div><br>
+
+<div style="font-size: 17px;">
                 
-<p><b>eneu at umass dot edu</b><br>
+<p>eneu at umass dot edu<br>
 
 <span style="display:block; height: 10px;"></span>
+<div style="font-size: 17px;">
 
 <p>Department of Linguistics<br>
 N408 Integrative Learning Center<br>
@@ -147,7 +159,9 @@ Amherst, MA 01003<br>
             
 <!-- Links on the Sidebar -->
 
-<span style="display:inline-block; width: 15px;"></span>
+<span style="display:inline-block; height: 10px;"></span>
+
+<div style="font-size: 17px;">
 
 <p><a href="https://github.com/Eva-Neu">GitHub</a><br>
 
