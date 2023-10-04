@@ -37,18 +37,6 @@ html * {
   font-family: Times New Roman;
 }
 
-@media screen and (max-width: 1100px) {
-.main, .menubar{
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    font-size: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
- }
-
-
 /* Reset styles to ensure consistent styling across browsers */
 
 * {
@@ -59,7 +47,7 @@ html * {
 
 /* Body styles */
 
-.body {
+.main {
   background-color: White;
   font-size: 22px;
   float: left;
@@ -74,7 +62,7 @@ html * {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-      font-size: 22px;
+  font-size: 22px;
 }
 
 .menubar ul {
@@ -99,6 +87,18 @@ html * {
   color: black;
 }
 
+@media screen and (max-width: 1100px) {
+.main, .menubar{
+    font-size: 17px;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+ }
+
+
 
 </style>
 
@@ -119,22 +119,17 @@ html * {
 
 <!-- Page Content -->
 
-<div class="main" style="margin-top:2%; float:left; font-size: 22px;">  
-
+<div class="main" style="margin-top:2%; float:left ">  
 
 <p>Under review. Causatives of unergatives: A view from variable unaccusativity. <a href="Neu_2023_UnderReview.pdf">[pdf]</a></p>
 
 <span style="display:inline-block; height: 20px;"></span>
 
-
 <p>2023. Variable agreement with conjoined subjects in German: Testing the grammatical lacuna hypothesis. Unpublished Ms., UMass Amherst. <a href="Neu_2023_Ms.pdf">[pdf]</a></p>
 
 <span style="display:inline-block; height: 20px;"></span>
 
-
 <p>2023. Causatives of unergatives in Hindi-Urdu. <i>Coyote Papers 25: Proceedings of ALC 16</i>. 71&#x2013;78. <a href="Neu_2023_ALC.pdf">[pdf]</a></p>
-
-
 
 <span style="display:inline-block; height: 20px;"></span>
 
@@ -144,7 +139,8 @@ html * {
 
 <span style="display:inline-block; height: 65px;"></span>
 
-        
+</div>
+
 </body>
 
 </html>
